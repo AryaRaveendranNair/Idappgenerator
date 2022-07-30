@@ -1,0 +1,62 @@
+.banner{
+    background-image: url("../../assets/images/img2.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    top: 60%;
+
+    position: absolute;
+}
+.banner h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    top: 20%;
+    
+    position: absolute;
+
+}
+.container{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+h2{
+    text-align: center;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:orangered;
+    padding-top: 30px;
+    text-decoration:underline;
+}
+
+p{
+    color: red;
+    font-weight:400px;
+}
+.card-body{
+    height:8cm;
+}
+.card{
+    border: 1px solid dimgray;
+    padding:10px;
+    
+}
+
+
+.card {
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}

@@ -11,6 +11,11 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.component';
 import { UserService } from './user.service';
+import { AdminhomeComponent } from './adminhome/adminhome.component';
+import { BatchmanagerComponent } from './batchmanager/batchmanager.component';
+import { NewbatchmanagerComponent } from './newbatchmanager/newbatchmanager.component';
+import { FormcontrolComponent } from './formcontrol/formcontrol.component';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +25,11 @@ import { UserService } from './user.service';
     LoginComponent,
     RegisterComponent,
     ForgetpasswordComponent,
+    AdminhomeComponent,
+    BatchmanagerComponent,
+    NewbatchmanagerComponent,
+    FormcontrolComponent,
+    NavbarComponent,
     
   ],
   imports: [
