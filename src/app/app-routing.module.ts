@@ -1,17 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { ApplicationFormComponent } from './application-form/application-form.component';
-import { ApplicationStatusComponent } from './application-status/application-status.component';
+import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.component';
+import { LoginComponent } from './login/login.component';
+import { MainhomeComponent } from './mainhome/mainhome.component';
+import { RegisterComponent } from './register/register.component';
 
+import { AuthGuard } from './auth.guard';
 
-const routes: Routes = [{path:'',component:HomeComponent},
-{path:'header',component:HeaderComponent},
-{path:'footer',component:FooterComponent},
-{path:'appForm',component:ApplicationFormComponent},
-{path :'appStatus', component:ApplicationStatusComponent}];
+const routes: Routes = [
+  {path:"", component:MainhomeComponent},
+  {path:"register",component:RegisterComponent},
+  {path:"login", component:LoginComponent},
+  {path:"forgetpassword",component:ForgetpasswordComponent},
+  
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
